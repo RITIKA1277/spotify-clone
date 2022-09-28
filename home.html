@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music for everyone - Spotify</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/homecss.css" />
+    <link rel="stylesheet" href="css/@media-acc.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header-container">
+        <div class="header-logo">
+          <img src="/images/spotify-logo.svg" />
+        </div>
+        <!-- This is the menu that will be shown on mobile devices -->
+        <nav class="nav-mobile">
+          <!-- Profile -->
+          <div class="profile">
+            <img src="/images/profile.png">
+          </div>
+          <!-- Hamburger menu -->
+          <input type="checkbox" class="toggler" />
+          <div class="hamburger-menu"><div></div></div>
+          <div class="menu">
+            <div class="background-overlay"></div>
+            <div class="menu-overlay">
+              <ul>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Download</a></li>
+                <li role="separator"></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+              <div class="menu-overlay-logo">
+                <img src="images/spotify-logo.svg" />
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- This is the menu that will be shown on Desktop -->
+        <nav class="nav-desktop">
+          <!-- Site menu -->
+          <ul>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Download</a></li>
+            <li role="separator"></li>
+          </ul>
+          <!-- Profile menu -->
+          <div class="profile-container">
+            <input type="checkbox" class="dropdown-menu-toggler" />
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </div>
+            <div class="profile">
+              <img src="/images/profile.png" >
+            </div>
+            <ul>
+              <li>Profile</li>
+              <li>
+                <!--img src="/images/profile.png"-->
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero" >
+      <div class="hero-container">
+        <!--img src="/images/pexels-wendy-wei-1190297.jpg" class="img"--> 
+        <div class="hero-content">
+          <h1 class="hero-title">Play your favorite songs and podcasts for Free</h1>
+          <button class="hero-button"><a href="/front.html">Get Spotify Free </a></button>
+          <img src="/images/mobile.jpeg" class="mobile-img">
+          <div class="terms">
+            <span>*</span>
+            <a href="#" class="hero-terms-link">Terms and conditions</a
+            ><span>apply.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="albums">
+      <div class="albums-container">
+        <div class="albums-content">
+          <h2>Looking for music?</h2>
+          <p>Start listening to the best new releases.</p>
+          <button>LAUNCH WEB PLAYER</button>
+        </div>
+        <div class="albums-cards-container">
+          <!-- workout-->
+          <div class="album travis-scott">
+            <img src="/images/workout.webp" />
+            <div class="album-info">
+              <h2>Bollywood Workout Beats</h2>
+              <h4>Hindi X English</h4>
+              <a href="#">PLAY NOW</a>
+            </div>
+          </div>
+          <!-- HINDI MELODIES-->
+          <div class="album zayn">
+            <img src="/images/cover1.jpg" />
+            <div class="album-info">
+              <h2>Hindi Melodies Mix</h2>
+              <h4>playlist by Svm</h4>
+              <a href="#">PLAY NOW</a>
+            </div>
+          </div>
+          <!-- english mix -->
+          <div class="album joji">
+            <img src="/images/cover2.jpeg" />
+            <div class="album-info">
+              <h2>Best English playlist</h2>
+              <h4>Jean E</h4>
+              <a href="#">PLAY NOW</a>
+            </div>
+          </div>
+          <!-- DILJIT-->
+          <div class="album jennifer-lopez">
+            <img src="/images/DILJIT.jpeg" />
+            <div class="album-info">
+              <h2>Punjabi Mix</h2>
+              <h4>Diljit Dosanjh</h4>
+              <a href="#">PLAY NOW</a>
+            </div>
+          </div>
+          <!-- Machine Gun Kelly -->
+          <div class="album machine-gun-kelly">
+            <img src="/images/cover3.jpeg" />
+            <div class="album-info">
+              <h2>Tickets To My Downfall</h2>
+              <h4>Machine Gun Kelly</h4>
+              <a href="#">PLAY NOW</a>
+            </div>
+          </div>
+          <!-- Cold -->
+          <div class="album machine-gun-kelly">
+            <img src="/images/AP.jpeg" />
+            <div class="album-info">
+              <h2>Hit LoFi</h2>
+              <h4>AP Dhillon</h4>
+              <a href="#">PLAY NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav class="footer-nav">
+        <div class="logo-footer">
+          <a href="#"><img src="/images/spotify-logo.svg" /></a>
+        </div>
+        <div class="top-links">
+          <div class="company-links">
+            <ul>
+              <li>COMPANY</li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">For the Record</a></li>
+            </ul>
+          </div>
+          <div class="communities-links">
+            <ul>
+              <li>COMMUNITIES</li>
+              <li><a href="#">For Artists</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Investors</a></li>
+              <li><a href="#">Vendors</a></li>
+            </ul>
+          </div>
+          <div class="useful-links">
+            <ul>
+              <li>USEFUL LINKS</li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Web Player</a></li>
+              <li><a href="#">Free Mobile App</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="#"><img src="/images/instagram-icon.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/twitter-icon.svg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/images/facebook-icon.svg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="country">
+          <a href="#"><span>USA</span><img src="/images/india.png" /></a>
+        </div>
+        <div class="bottom-links">
+          <ul>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Privacy Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">About Ads</a></li>
+            <li><a href="#">Additional CA Privacy Disclosures</a></li>
+          </ul>
+          <span>© 2020 Spotify AB</span>
+        </div>
+      </nav>
+    </footer>
+  </body>
+  <!-- Load script.js -->
+  <script src="/script.js"></script>
+</html>

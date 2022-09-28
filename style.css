@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu',sans-serif;
+}
+
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar img{
+    width: 48px;
+    padding: 0 33px;
+    border-radius:100%;
+
+}
+
+.brandname{
+    margin-left: -667px;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 80px;
+}
+
+.navbar ul li{
+    
+    padding-right: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: inherit;
+    color: ivory;
+}
+.navbar ul li a:hover {
+    background-color: rgb(27, 28, 28);
+    color:black;
+
+}
+body{
+    background-image: url(/images/back3.jpg);
+    background-size: cover
+}
+.container{
+    height: 66vh;
+    width: 75%;
+    background-image: url(/images/pexels-sound-on-3756774.jpg);
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 25px;
+}
+.container h2{
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+.container i{
+    color: white;
+    padding: 0 15px;
+}
+
+
+.bottom{
+    height: 13.9vh;
+    width: 100%;
+    background-color: rgb(4, 4, 4);
+    margin: 0px auto;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#progressbar{
+    width: 80%;
+    cursor: pointer;
+}
+.icons i{
+    margin-top: -6px;
+    size: 1.9rem;
+    padding: 6px 7px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 2.5em;
+}
+.songlist h1{
+    padding: 0 32px;
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+}
+.songitems{
+    height: 44px;
+    width: 41%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgba(69, 57, 57, 0.67);
+    margin: 9.5px 0;
+    border-radius: 34px ;
+}
+.songitems i{
+    cursor: pointer;
+}
+.songitems img{
+    width: 36px;
+    margin: 0 12px;
+    border-radius: 34px;
+}
+.sname{
+    color: white;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.timestamp{
+    margin: 0 25px;
+    color: white;
+}
+.songinfo{
+    position: absolute;
+    left: 22vw;
+}
+#playing{
+    padding: 0 12px;
+    font-size: larger;
+    color:rgb(246, 242, 242);
+    font-family: cursive;
+    font-weight: bolder;
+    margin-left: -144px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.volumeBar{
+    position: absolute;
+    left: 72vw;
+}
+@media all and (max-width: 768px){
+
+    
+        .volumeBar{
+            display: none;
+        }
+        .songitems{
+            height: 59px;
+            width: 107%;
+            border-radius: 27px;
+            margin: 7.5px -10px;
+        }
+        .timestamp{
+            margin: 0px -1px;
+        }
+        .sname{
+            font-size: small;
+        }
+        .songlist h1{
+            font-size: smaller;
+        }
+        .container{
+            height: 64vh;
+            width: 83%;
+
+        }
+        .container h2{
+            font-size: small;
+        }
+        .songinfo{
+            display: none;
+        }
+        .songinfo img{
+            display: none;
+
+        }
+        #playing{
+            display: none;
+        }
+        .bottom{
+            height: 23.9vh;
+           
+        }
+        #progressbar{
+            width: 90%;
+            margin-top: 0 -22px;
+        }
+        .navbar img{
+            padding: 0px 10px;
+
+        }
+        .navbar ul li{
+            padding-right: 0px;
+        }
+        .navbar ul li a{
+            padding-right: 9.9px;
+            font-size: 0.7rem;
+        }
+        .brandname{
+            margin-left: -12px;
+            font-size: 1.2rem;
+        }
+        .navbar{
+            height: 7vh;
+        }
+        .navbar ul{
+            padding: 0px;
+        }
+       
+
+    
+}
