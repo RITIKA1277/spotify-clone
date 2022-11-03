@@ -1,6 +1,6 @@
 Hi, 
 I am RITIIKA BHATIA 
-Here i attached my project presentation on SPOTIFY CLONE FRONTEND , Where i explaine BASIC frontend development based on HTML CSS javascript. and show my project output.
+Here i attached my project presentation on SPOTIFY CLONE FRONTEND , Where i explain BASIC frontend development based on HTML CSS javascript. and show my project output.
 
 [pptspotify.pptx](https://github.com/RITIKA1277/spotify-clone/files/9932594/pptspotify.pptx)
 
